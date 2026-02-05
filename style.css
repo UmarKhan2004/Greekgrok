@@ -106,12 +106,14 @@ header {
     background-color: green;
     color: white;
 }
-.Explore{
-        display: flex;
+
+.Explore {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .course-challenge {
     border: 1px solid;
     width: 70%;
@@ -302,7 +304,7 @@ video {
     align-items: center;
     flex-direction: column;
     gap: 8px;
-      width: 50%;
+    width: 50%;
 }
 
 .card-4 {
@@ -318,7 +320,7 @@ video {
     align-items: center;
     flex-direction: column;
     gap: 8px;
-      width: 50%;
+    width: 50%;
 }
 
 .card-5 {
@@ -334,7 +336,7 @@ video {
     align-items: center;
     flex-direction: column;
     gap: 8px;
-      width: 50%;
+    width: 50%;
 }
 
 .card-6 {
@@ -350,7 +352,7 @@ video {
     align-items: center;
     flex-direction: column;
     gap: 8px;
-      width: 50%;
+    width: 50%;
 }
 
 .card-7 {
@@ -366,7 +368,7 @@ video {
     align-items: center;
     flex-direction: column;
     gap: 8px;
-      width: 50%;
+    width: 50%;
 }
 
 .card-8 {
@@ -382,7 +384,7 @@ video {
     align-items: center;
     flex-direction: column;
     gap: 8px;
-      width: 50%;
+    width: 50%;
 }
 
 .card-9 {
@@ -398,7 +400,7 @@ video {
     align-items: center;
     flex-direction: column;
     gap: 8px;
-      width: 50%;
+    width: 50%;
 }
 
 .card-10 {
@@ -414,7 +416,7 @@ video {
     align-items: center;
     flex-direction: column;
     gap: 8px;
-      width: 50%;
+    width: 50%;
 }
 
 .card-11 {
@@ -430,7 +432,7 @@ video {
     align-items: center;
     flex-direction: column;
     gap: 8px;
-      width: 50%;
+    width: 50%;
 }
 
 .card-12 {
@@ -441,14 +443,15 @@ video {
     padding: 35px;
     margin: 15px;
     height: 30vh;
-  width: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 8px;
 }
-.link-card{
+
+.link-card {
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -456,7 +459,8 @@ video {
     border: 1px solid;
     border-radius: 8px;
 }
-.ads{
+
+.ads {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -466,30 +470,96 @@ video {
     padding: 10px;
     border-radius: 8px;
     color: rgb(211, 234, 244);
-    margin-bottom:30px ;
+    margin-bottom: 30px;
 }
-.btn-ad{
+
+.btn-ad {
     text-decoration: none;
-    color:black;
+    color: black;
     background-color: white;
     padding: 15px;
     border-radius: 8px;
 }
-.course-intro{
+
+.course-intro {
     display: flex;
     justify-content: space-between;
 }
-.course-container{
+
+.course-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
-.course-img{
+
+.course-img {
     min-height: 162px;
     max-height: 162px;
     object-fit: cover;
 }
-.course{
+
+.course {
     text-align: center;
+    border-radius: 8px;
+    padding: 18px;
+    margin-bottom: 25px;
+    transition: ease-in 0.3s;
+}
+
+.course:hover {
+    box-shadow: 2px 2px 2px gray;
+}
+.courses{
+    margin-bottom: 60px;
+}
+
+.btn-course {
+    text-decoration: none;
+
+    border-radius: 5px;
+    color: black;
+    padding: 15px;
+    background-color: yellow;
+}
+.must-container{
+    display: flex;
+    gap: 15px;
+}
+.must{
+    padding: 10px;
+    background-color: rgb(141, 141, 235);
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    height: 20vh;
+    color: white;
+    
+}
+.link-must{
+    text-decoration: none;
+}
+.logo-container{
+   
+    height: 40vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-footer{
+    display:flex;
+
+}
+.nav-footer li{
+    list-style: none;
+}
+.link-footer{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+footer{
+    display: flex;
 }
